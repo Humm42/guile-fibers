@@ -73,6 +73,9 @@ case "$host_os" in
     *darwin*)
         PLATFORM=darwin
         ;;
+    *openbsd*)
+        PLATFORM=openbsd
+        ;;
     *)
         PLATFORM=generic
         ;;
